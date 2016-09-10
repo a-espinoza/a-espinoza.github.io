@@ -1,6 +1,6 @@
 html{
   background: white;
-  border: 5px solid red;
+  border: 8px solid red;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -9,8 +9,21 @@ span{
   font-weight: 400;
 }
 
-h1{
+div{
   text-align: center;
+  border: 4px solid yellow
+  display:block;
+}
+
+h1{
+  border: 2px solid blue;
+  font-size: 5em;
+  display: inline;
+}
+
+nav{
+  display: inline;
+  padding: 10px;
 }
 
 
