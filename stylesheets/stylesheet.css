@@ -4,6 +4,12 @@ html{
   font-family: 'Raleway', sans-serif;
 }
 
+h1{
+  border: 2px solid blue;
+  font-size: 5em;
+  display: inline;
+}
+
 span{
   color: grey;
   font-weight: 400;
@@ -11,20 +17,31 @@ span{
 
 div{
   text-align: center;
-  border: 4px solid yellow
-  display:block;
+  border: 4px solid green;
 }
 
-h1{
-  border: 2px solid blue;
-  font-size: 5em;
-  display: inline;
+.menu{
+  text-align: center;
+  border: 4px solid purple;
 }
 
-nav{
+li{
   display: inline;
   padding: 10px;
 }
+
+li:Hover{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer{
+margin-top: auto;
+}
+
+
+
+
 
 
 
