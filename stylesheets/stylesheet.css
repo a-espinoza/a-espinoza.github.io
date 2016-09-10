@@ -1,9 +1,31 @@
 html{
   background: white;
   border: 5px solid red;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
+span{
+  color: grey;
+  font-weight: 400;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 body{
   display: flex;
   align-items: center;
@@ -51,3 +73,4 @@ li{
 .effect1 a:focus::before {
 	opacity: 0;
 }
+/*
